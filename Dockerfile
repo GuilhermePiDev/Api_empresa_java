@@ -8,7 +8,7 @@ WORKDIR /apiusuarios.empresas
 
 COPY . .
 
-EXPOSE 3001
+EXPOSE 8001
 
 CMD ["java" , "-jar" , "target/spring-boot-2-jpa-with-hibernate-and-h2-0.0.1-SNAPSHOT.jar"]
 
